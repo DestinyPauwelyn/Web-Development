@@ -1,0 +1,14 @@
+.checklist
+{
+    list-style-type: none;
+    padding-left: 20px;
+}
+li::before
+{
+    content: "\2610";
+    margin-right: 5px;
+}
+.checked::before
+{
+    content: "\2611";
+}
