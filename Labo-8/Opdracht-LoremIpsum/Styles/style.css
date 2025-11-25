@@ -9,4 +9,7 @@ section
     padding: 10px;
     width: 50%;
     box-sizing: border-box;
+    float: left;
+    position: relative;
+    margin: 10px;
 }

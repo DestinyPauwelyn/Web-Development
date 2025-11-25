@@ -1,0 +1,95 @@
+body
+{
+    width: 95%;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: verdana,helvetica,Arial;
+}
+a
+{
+    color: black;
+}
+/* header */
+div > header
+{
+    width: 100%;
+}
+div > header > p
+{
+    text-align: center;
+}
+#imgHeader
+{
+    height: 125px;
+}
+/* h1 & h2 kleur */
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+h2
+{
+    color: #007e7e;
+    font-size: 130%;
+}
+/* aside h1 & h2 kleur */
+aside > h1
+{
+    color:black;
+}
+aside > h2
+{
+    color:red;
+}
+/* artikel gegevens */
+#content
+{
+    width: 70%;
+}
+#content > article > p
+{
+    margin-right:30px;
+}
+.color
+{
+    margin: 30px;
+    background: #a7cece;
+    border:3px dotted white;
+}
+#guarantee
+{
+    background: url("../Images/background.gif") no-repeat;
+    font-style: italic;
+    padding: 20px;
+    padding-left: 70px;
+    color: #444444;
+}
+.cd
+{
+    font-style: italic;
+}
+.artist
+{
+    font-weight: bold;
+}
+/* aside gegevens */
+aside
+{
+    float: right;
+    width: 30%;
+    border: 3px #007e7e solid;
+}
+aside > h1, aside > h2, aside > p
+{
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+}
+/* footer gegevens */
+footer
+{
+    float:right;
+    width: 100%;
+    font-size: 50%;
+    text-align: center;
+}
