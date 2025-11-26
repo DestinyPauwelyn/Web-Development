@@ -3,7 +3,7 @@ body
     width: 95%;
     margin: auto;
     font-size: 1.2em;
-    font-family: verdana,helvetica,Arial;
+    font-family: verdana,helvetica,Arial,sans-serif;
 }
 a
 {
