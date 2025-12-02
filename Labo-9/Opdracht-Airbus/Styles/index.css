@@ -1,0 +1,123 @@
+body
+{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetice, sans-serif;
+}
+header
+{
+    background: url("../images/bgsky3.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: darkblue;
+    position: relative;
+}
+header > :nth-child(1)
+{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+}
+header > :nth-child(2)
+{
+    font-size: 240%;
+    font-weight: bold;
+}
+header > img
+{
+    position: absolute;
+    bottom: 60px;
+    right: 250px;
+}
+aside
+{
+    width: 25%;
+    background-color: #dddddd;
+    border: solid 1px #999999;
+    float: right;
+    box-sizing: border-box;
+}
+aside > p
+{
+    color: #666666;
+    font-size: 90%;
+    padding: 0 10px;
+    text-align: left;
+}
+aside > h3
+{
+    color:white;
+    background-color: blue;
+    text-align: center;
+    font-size: 120%;
+}
+section
+{
+    width: 75%;
+    box-sizing: border-box;
+}
+section > article
+{
+    padding-right: 10px;
+}
+section > article > p
+{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    text-align: justify;
+}
+section > :first-child
+{
+    padding: 20px 20px;
+    float: left;
+}
+section > article > p > span
+{
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+}
+section > :last-child
+{
+    background-color: #999999;
+    text-align: left;
+}
+.foto
+{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    border: dotted 1px white/#999999;
+    margin: 15px 15px;
+}
+footer
+{
+    background-color: #666666 ;
+    text-align: left;
+    color:white;
+    line-height: 2em;
+}
+li > a
+{
+    color: white;
+}
+li > a:hover
+{
+    color: red;
+}
+footer > div
+{
+    display: inline-block;
+    margin-left: 120px;
+}
+body > :last-child
+{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
