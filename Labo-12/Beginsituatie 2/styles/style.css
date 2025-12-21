@@ -1,0 +1,95 @@
+html {
+    background-color: #333;
+    font-family: helvetica;
+}
+
+* {
+    padding: 10px;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+header
+{
+    padding: 0;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #dbaa00;
+    margin: 0;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+nav > a
+{
+    color: #dbaa00;
+    background-color: white;
+    border: black solid 2px;
+    width: 100%;
+    margin: 0 5px;
+    text-align: center;
+}
+main > div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 0 0;
+    background-color: white;
+}
+div > img
+{
+    display: flex;
+}
+div > p
+{
+    display: flex;
+    margin: 0;
+}
+div > a
+{
+    display: flex;
+    color: black;
+    border: grey solid 1px;
+    justify-content: center;
+    margin: 10px;
+}
+
+footer
+{
+    text-align: center;
+    border-top: black solid 10px;
+    background-color: #dbaa00;
+}
+
+@media (min-width: 700px)
+{
+main
+{
+    flex-direction: row;
+}
+main > div
+{
+    width: 33%;
+    margin-right: 10px;
+}
+}
