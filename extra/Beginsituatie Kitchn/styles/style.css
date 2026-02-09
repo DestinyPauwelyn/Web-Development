@@ -154,7 +154,7 @@ footer > #right
     background: black;
     color: white;
 }
-@media (max-width: 770px)
+@media (width < 770px)
 {
     header > div
     {
@@ -169,7 +169,7 @@ footer > #right
         width: 600px;
     }
 }
-@media (min-width: 770px)
+@media (width >= 770px)
 {
     header > div
     {
@@ -184,14 +184,14 @@ footer > #right
         width: 750px;
     }
 }
-@media (min-width: 800px)
+@media (width >= 800px)
 {
     main > header
     {
         font-size: 5em;
     }
 }
-@media (min-width: 1000px)
+@media (width >= 1000px)
 {
     header > div
     {
