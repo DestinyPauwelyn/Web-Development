@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <title> Web game attempt </title>
+</head>
+<body>
+<section>
+    <div class="main">
+        <div class="left">
+            <h3 id="click">Money: <span class="currency">0</span></h3>
+            <img src="images/gem.png" alt="currency" draggable="false" onclick="incrementcurrency()">
+        </div>
+        <div class="right">
+            <div class="upgrade" onclick="buyClicker()">
+                <div class="left-section">
+                    <img src="images/clicker-white.png" alt="clicker" draggable="false" class="upgrade-img">
+                </div>
+                <div class="middle-section">
+                    <h4>Clicker</h4>
+                    <div class="cost-info">
+                        <p>Cost: <span class="clicker-cost">10</span></p>
+                        <img src="images/gem.png" alt="gem cost" draggable="false" class="currency-img">
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div>Level <span class="clicker-level">0</span></div>
+                </div>
+                <div class="next-level-info">
+                    <p>+<span class="clicker-increase">1</span> gems<br>per click</p>
+                </div>
+            </div>
+            <div class="upgrade" onclick="buyPickaxe()">
+                <div class="left-section">
+                    <img src="images/pickaxe.png" alt="pickax" draggable="false" class="upgrade-img">
+                </div>
+                <div class="middle-section">
+                    <h4>Pickaxe</h4>
+                    <div class="cost-info">
+                        <p>Cost: <span class="pickaxe-cost">130</span></p>
+                        <img src="images/gem.png" alt="gem cost" draggable="false" class="currency-img">
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div>Level <span class="pickaxe-level">0</span></div>
+                </div>
+                <div class="next-level-info">
+                    <p>+<span class="pickaxe-increase">4</span> gems<br>per second</p>
+                </div>
+            </div>
+            <div class="upgrade" onclick="buyMiner()">
+                <div class="left-section">
+                    <img src="images/miner.png" alt="miner" draggable="false" class="upgrade-img">
+                </div>
+                <div class="middle-section">
+                    <h4>Pickaxe</h4>
+                    <div class="cost-info">
+                        <p>Cost: <span class="miner-cost">850</span></p>
+                        <img src="images/gem.png" alt="gem cost" draggable="false" class="currency-img">
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div>Level <span class="miner-level">0</span></div>
+                </div>
+                <div class="next-level-info">
+                    <p>+<span class="miner-increase">12</span> gems<br>per second</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="statistics">
+        <div class="text">
+            <p>Currency per click: <span id="CPC">1</span></p>
+            <p>Currency per second: <span id="CPS">0</span></p>
+        </div>
+    </div>
+</section>
+<script src="Scripts/script.js"></script>
+</body>
+</html>
